@@ -20,7 +20,7 @@ public class ResolveController {
         service = new ResolveService();
     }
     
-    @GetMapping
+    @PostMapping
     public DecodeModel resolve(@RequestBody DecodeModel model) {
         System.out.println("Got: " + model.toString());
         DecodeModel decodeModel = service.resolve(model);

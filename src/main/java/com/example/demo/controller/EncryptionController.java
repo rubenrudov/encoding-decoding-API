@@ -17,7 +17,7 @@ public class EncryptionController {
         service = new EncodeService();
     }
     
-    @GetMapping
+    @PostMapping
     public EncodeModel getEncryptedMessage(@RequestBody EncodeModel model) {
         System.out.println("Got: " + model.toString());
         EncodeModel encodeModel = service.getEncryptedMessage(model);
