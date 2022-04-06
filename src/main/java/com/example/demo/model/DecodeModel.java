@@ -4,14 +4,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.UUID;
 
+// This is a Model for decoding messages
 public class DecodeModel {
+    
+    // Props
     private final UUID id;
     private final String content;
-    
     private final int flag;
     
     /**
-     * Person constructor by Json properties (id, name)
+     * DecodeModel constructor by Json properties (id, content)
      * @param id - UUID
      * @param content - String
      */

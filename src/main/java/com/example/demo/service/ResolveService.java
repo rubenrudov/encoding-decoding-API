@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Service
 public class ResolveService {
     
+    // Props are: decode model and decode object
     Decode decode;
     DecodeModel response;
     

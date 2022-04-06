@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.UUID;
 
+// This is a Model for encoding messages
 public class EncodeModel {
     
     private final UUID id;
@@ -25,6 +26,7 @@ public class EncodeModel {
         this.flag = flag;
     }
     
+    // Get flag method
     public int getFlag() {
         return flag;
     }

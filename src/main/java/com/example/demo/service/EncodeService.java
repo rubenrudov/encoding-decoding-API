@@ -16,6 +16,7 @@ import java.util.Optional;
 @Service
 public class EncodeService {
     
+    // Props are: encode model and encode object
     Encode encode;
     EncodeModel response;
     
